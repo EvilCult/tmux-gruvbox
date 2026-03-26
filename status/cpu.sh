@@ -1,5 +1,5 @@
 show_cpu() {
-  tmux set-option -g @cpu_low_bg_color "$thm_yellow"    # background color when cpu is low
+  tmux set-option -g @cpu_low_bg_color "$thm_green"    # background color when cpu is low
   tmux set-option -g @cpu_medium_bg_color "$thm_orange" # background color when cpu is medium
   tmux set-option -g @cpu_high_bg_color "$thm_red"      # background color when cpu is high
 

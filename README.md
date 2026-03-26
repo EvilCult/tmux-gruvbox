@@ -1,13 +1,21 @@
 <h3 align="center">
-	<!-- <img src="https://raw.githubusercontent.com/z3z1ma/tmux-gruvbox/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/> -->
-	<img src="https://raw.githubusercontent.com/z3z1ma/tmux-gruvbox/main/assets/misc/transparent.png" height="30" width="0px"/>
+	<!-- <img src="https://raw.githubusercontent.com/EvilCult/tmux-gruvbox/main/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/> -->
+	<img src="https://raw.githubusercontent.com/EvilCult/tmux-gruvbox/main/assets/misc/transparent.png" height="30" width="0px"/>
 	Gruvbox for <a href="https://github.com/tmux/tmux">Tmux</a>
-	<img src="https://raw.githubusercontent.com/z3z1ma/tmux-gruvbox/main/assets/misc/transparent.png" height="30" width="0px"/>
+	<img src="https://raw.githubusercontent.com/EvilCult/tmux-gruvbox/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
 <p align="center">
   <!-- <img src="./assets/preview.webp"/> -->
 </p>
+
+
+## Key Enhancements
+
+This project is a fork of [tmux-gruvbox](https://github.com/EvilCult/tmux-gruvbox), refined with a few adjustments to better suit a personalized, minimalist workflow.
+
+* **Native Transparency Support**: Background transparency is enabled by default, allowing the theme to seamlessly inherit the transparency levels and base colors of your terminal emulator.
+* **Color Palette Optimization**: The Gruvbox color scheme has been recalibrated to align perfectly with the [Gruvbox Rainbow](https://starship.rs/presets/gruvbox-rainbow) Starship preset, ensuring a consistent aesthetic across your entire shell environment.
 
 ## Content
 
@@ -29,7 +37,7 @@
 
 ## Themes
 
-- 🌻 [Dark](./gruvbox-dark.tmuxtheme) - created by myself
+- 🌻 [Dark](./gruvbox-dark.tmuxtheme) 
 
 ## Installation
 
@@ -42,7 +50,7 @@ If you do not have a patched font installed, you can override or remove any icon
 2. Add the gruvbox plugin:
 
 ```bash
-set -g @plugin 'z3z1ma/tmux-gruvbox'
+set -g @plugin 'EvilCult/tmux-gruvbox'
 # ...alongside
 set -g @plugin 'tmux-plugins/tpm'
 ```
@@ -258,7 +266,7 @@ The preferred way to install tmux-battery is using [TPM](https://github.com/tmux
 #### Configure
 Load tmux-battery after you load gruvbox.
 ```sh
-set -g @plugin 'z3z1ma/tmux-gruvbox'
+set -g @plugin 'EvilCult/tmux-gruvbox'
 ...
 set -g @plugin 'tmux-plugins/tmux-battery'
 ```
@@ -357,14 +365,15 @@ set -g @gruvbox_directory_text "#{pane_current_path}"
 
 ## 💝 Thanks to
 
+- [z3z1ma](https://github.com/z3z1ma)
 - [Pocco81](https://github.com/catppuccin)
 - [vinnyA3](https://github.com/vinnyA3)
 - [rogeruiz](https://github.com/rogeruiz)
 
 &nbsp;
 
-<p align="center"><img src="https://raw.githubusercontent.com/z3z1ma/tmux-gruvbox/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/EvilCult/tmux-gruvbox/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">Copyright &copy; 2021-present <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a>
-<p align="center">Copyright &copy; 2023-present <a href="https://github.com/z3z1ma" target="_blank">Alex Butler</a>
-<p align="center"><a href="https://github.com/z3z1ma/tmux-gruvbox/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
+<p align="center">Copyright &copy; 2023-present <a href="https://github.com/EvilCult" target="_blank">Alex Butler</a>
+<p align="center"><a href="https://github.com/EvilCult/tmux-gruvbox/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=MIT&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
 
