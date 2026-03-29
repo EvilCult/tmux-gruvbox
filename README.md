@@ -5,10 +5,11 @@
 	<img src="https://raw.githubusercontent.com/EvilCult/tmux-gruvbox/main/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
-<p align="center">
-  <!-- <img src="./assets/preview.webp"/> -->
-</p>
 
+### Preview
+![preview1](./assets/preview.png)
+
+![preview2](./assets/preview2.png)
 
 ## Key Enhancements
 
