@@ -4,7 +4,7 @@ show_ram() {
   tmux set-option -g @ram_high_bg_color "$thm_red"      # background color when ram is high
 
   local index=$1
-  local icon=$(get_tmux_option "@gruvbox_ram_icon" "󰍛")
+  local icon=$(get_tmux_option "@gruvbox_ram_icon" "")
   local color="$(get_tmux_option "@gruvbox_ram_color" "#{ram_bg_color}")"
   local text="$(get_tmux_option "@gruvbox_ram_text" "#{ram_percentage}")"
 
