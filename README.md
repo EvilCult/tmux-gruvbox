@@ -17,6 +17,7 @@ This project is a fork of [tmux-gruvbox](https://github.com/EvilCult/tmux-gruvbo
 
 * **Native Transparency Support**: Background transparency is enabled by default, allowing the theme to seamlessly inherit the transparency levels and base colors of your terminal emulator.
 * **Color Palette Optimization**: The Gruvbox color scheme has been recalibrated to align perfectly with the [Gruvbox Rainbow](https://starship.rs/presets/gruvbox-rainbow) Starship preset, ensuring a consistent aesthetic across your entire shell environment.
+* **Nerd Font Icon Update**: Updated some icons to Font Awesome icons to fix line wrapping issues on mobile clients (Termius) caused by incorrect character width calculations.
 
 ## Content
 
